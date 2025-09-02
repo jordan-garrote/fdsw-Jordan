@@ -28,7 +28,13 @@ body {
   font-weight: 700;
   color: #232b6a;
 }
-
+.card{
+  transition: all .3s ease;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
