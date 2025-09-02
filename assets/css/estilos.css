@@ -19,12 +19,14 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+.bg-trabajos{
+  background-color: #181f54;
+}
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: #232b6a;
 }
 
 @media (max-width: 768px) {
